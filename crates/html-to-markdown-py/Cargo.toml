@@ -27,7 +27,7 @@ name = "_html_to_markdown"
 crate-type = ["cdylib"]
 
 [features]
-extension-module = ["pyo3/extension-module", "pyo3/abi3-py310"]
+extension-module = ["pyo3/extension-module", "pyo3/abi3-py312"]
 
 default = ["inline-images", "metadata", "testkit", "visitor"]
 inline-images = ["html-to-markdown-rs/inline-images"]
